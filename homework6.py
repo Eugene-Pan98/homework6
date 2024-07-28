@@ -3,7 +3,7 @@ print(my_dict)
 print(my_dict['Max'])
 print(my_dict.get('Toma'))
 my_dict.update({'Toma': 1986, 'Vova': 2001})
-del my_dict['Max']
+a = my_dict.pop('Max')
 print(my_dict)
 #
 my_set = {1, 2, 3, 3, True, 6, 'string'}
